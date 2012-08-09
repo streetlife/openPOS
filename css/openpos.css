@@ -1,3 +1,4 @@
+@import url(reset.css);
 @import url(autocomplete.css);
 @import url(menubar.css);
 @import url(general.css);
@@ -40,7 +41,7 @@ a.none
 {
 	position:relative;
 	margin:0 auto;
-	width:875px;
+	width:1075px;
 	text-align:left;
 	
 }
@@ -120,10 +121,9 @@ a.none
 .module_item
 {
 	padding: 10px;
-	padding-top: 15px;
-	margin: 10px;
-	width: 230px;
-	height: 100px;
+	padding-top: 5px;
+	margin: 5px;
+	width: 236px;
 	float: left;
 	border: 1px solid #CCC;
 }
@@ -142,7 +142,9 @@ a.none
 }
 .module_item img {
 	float: left;
-	margin: 5px 10px 5px 5px;
+	margin: 5px;
+    width: 96px;
+    height: 96px;
 }
 #config_wrapper
 {
