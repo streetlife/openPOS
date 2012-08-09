@@ -14,7 +14,6 @@ $(document).ready(function()
 </script>
 </head>
 <body>
-<h1>OpenPOS <?php echo $this->config->item('application_version'); ?></h1>
 <?php echo form_open('login') ?>
 <div id="container">
 <?php echo validation_errors(); ?>
@@ -22,30 +21,21 @@ $(document).ready(function()
 	<?php echo $this->lang->line('login_login'); ?>
 	</div>
 	<div id="login_form">
-		<div id="welcome_message">
 		<?php echo $this->lang->line('login_welcome_message'); ?>
-		</div>
-		
-		<div class="form_field_label"><?php echo $this->lang->line('login_username'); ?>: </div>
-		<div class="form_field">
+    <br />
+		<?php echo $this->lang->line('login_username'); ?>: 
 		<?php echo form_input(array(
-		'name'=>'username', 
-		'value'=> '',
-		'size'=>'20')); ?>
-		</div>
-
-		<div class="form_field_label"><?php echo $this->lang->line('login_password'); ?>: </div>
-		<div class="form_field">
+    'name'=>'username', 
+    'value'=> '',
+    'size'=>'20')); ?>
+    <br />
+		<?php echo $this->lang->line('login_password'); ?>:
 		<?php echo form_password(array(
 		'name'=>'password', 
 		'value'=>'',
 		'size'=>'20')); ?>
-		
-		</div>
-		
-		<div id="submit_button">
-		<?php echo form_submit('loginButton','Go'); ?>
-		</div>
+    <br />
+		<?php echo form_submit('loginButton','Log In'); ?>
 	</div>
 </div>
 <?php echo form_close(); ?>
