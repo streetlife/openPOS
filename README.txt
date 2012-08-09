@@ -1,3 +1,11 @@
+MySQL User Creation
+-------------------------
+CREATE USER 'openpos'@'localhost' IDENTIFIED BY  'openpos';
+GRANT USAGE ON * . * TO  'openpos'@'localhost' IDENTIFIED BY  'openpos' WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0 ;
+CREATE DATABASE IF NOT EXISTS  `openpos` ;
+GRANT ALL PRIVILEGES ON  `openpos` . * TO  'openpos'@'localhost';
+
+
 How to Install
 -------------------------
 1. Create/locate a new mysql database to install open source point of sale into

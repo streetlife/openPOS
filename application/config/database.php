@@ -38,11 +38,11 @@ $active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "pos";
-$db['default']['password'] = "VCus3JyEnhsmGYQd";
-$db['default']['database'] = "pos";
+$db['default']['username'] = "openpos";
+$db['default']['password'] = "openpos";
+$db['default']['database'] = "openpos";
 $db['default']['dbdriver'] = "mysql";
-$db['default']['dbprefix'] = "ospos_";
+$db['default']['dbprefix'] = "openpos_";
 $db['default']['pconnect'] = FALSE;
 $db['default']['db_debug'] = FALSE;
 $db['default']['cache_on'] = FALSE;
