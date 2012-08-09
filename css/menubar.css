@@ -1,7 +1,6 @@
 #menubar {
     position: relative;
     margin: 0px;
-    padding: 0px;
     background-image: url("../images/menubar/menubar_bg.gif");
     background-repeat: repeat-x;
     width: 100%;
@@ -9,12 +8,14 @@
     color: #FFFFFF;
     text-align: left;
     text-align: center;
+    padding: 0px 15px;
 }
 
 #menubar_container {
     position: relative;
     margin: 0 auto;
-    width: 1075px;
+    padding-right: 200px;
+    /*width: 1075px;*/
     text-align: left;
 }
 
@@ -58,6 +59,8 @@
     left: 300px;
     top: 8px;
     height: 45%;
+    float: right;
+    margin-right: 20px;
 }
 
 #menubar_footer {
