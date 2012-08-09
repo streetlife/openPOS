@@ -12,9 +12,10 @@
 
 body
 {
-	margin:0px;
-	padding:0px;
-	background-color:#f7f7f7;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f7f7f7;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 a.none
@@ -119,8 +120,30 @@ a.none
 .module_item
 {
 	padding: 10px;
+	padding-top: 15px;
+	margin: 10px;
+	width: 230px;
+	height: 100px;
+	float: left;
+	border: 1px solid #CCC;
 }
-
+.module_item a {
+	display: block;
+	text-decoration: none;
+}
+.module_item a, .module_item a:visited {
+	color: #666;
+}
+.module_item a:hover, .module_item a:active {
+	color: #000;
+}
+.module_item a span {
+	display: block;
+}
+.module_item img {
+	float: left;
+	margin: 5px 10px 5px 5px;
+}
 #config_wrapper
 {
 	text-align:center;
