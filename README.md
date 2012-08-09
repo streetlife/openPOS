@@ -1,6 +1,7 @@
 openPOS
 =======
-A proper readme is coming soon.
+Another fork of the Open Source Point of Sale. Many forks have been created, but none has been updated. 
+This project aims to create a modern look and integrate features from other commercial POS applications.
 
 
 MySQL User Creation
